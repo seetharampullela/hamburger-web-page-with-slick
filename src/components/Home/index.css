@@ -1,0 +1,20 @@
+/* Write your CSS here */
+.home-image {
+  width: 100%;
+  max-width: 1110px;
+}
+
+@media screen and (max-width: 768px) {
+  .home-image {
+    display: none;
+  }
+}
+.mobile-home-image {
+  width: 80%;
+  max-width: 468px;
+}
+@media screen and (min-width: 769px) {
+  .mobile-home-image {
+    display: none;
+  }
+}
